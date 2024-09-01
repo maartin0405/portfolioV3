@@ -1,4 +1,4 @@
-const IconLink = ({ src } : {src: string}) => {
+const MediaLink = ({ src } : {src: string}) => {
     return (
         <a className="w-8">
             <img className="cursor-pointer aspect-square w-full hover:brightness-0 hover:invert" src={src}/>
@@ -6,4 +6,4 @@ const IconLink = ({ src } : {src: string}) => {
     )
 };
 
-export default IconLink;
+export default MediaLink;
