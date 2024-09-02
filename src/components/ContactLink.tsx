@@ -1,10 +1,10 @@
-import MediaLink from "./MediaLink";
 
-const ContactLink = () => {
+
+const ContactLink = ({src, href, link } : {src: string, href:string, link: string}) => {
     return(
-        <a className="flex items-center gap-1 hover:brightness-0 hover:invert text-secondary">
-            <MediaLink src="src\assets\discord.svg"/>
-            <div>hiiiiiiiii omg</div>
+        <a href={href} className="cursor-pointer flex items-center gap-1 hover:brightness-0 hover:invert text-secondary">
+            <img className="w-8"src={src}/>
+            <div>{link}</div>
         </a>
     );
 };
