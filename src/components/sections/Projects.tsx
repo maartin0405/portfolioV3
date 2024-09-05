@@ -15,9 +15,9 @@ const Projects = () => {
                     technologies={
                     ["React", "TypeScript", "TailwindCSS"]
                     }>
-                        <ButtonLink href="hi">LIVE</ButtonLink>
-                        <ButtonLink href="hi">LIVE</ButtonLink>
-                        <ButtonLink href="hi">LIVE</ButtonLink>
+                        <ButtonLink to="hi">LIVE</ButtonLink>
+                        <ButtonLink to="hi">LIVE</ButtonLink>
+                        <ButtonLink to="hi">LIVE</ButtonLink>
                 </ProjectCard>
                 <ProjectCard
                     src="src\assets\hero.png"
@@ -26,9 +26,9 @@ const Projects = () => {
                     technologies={
                     ["React", "TypeScript", "TailwindCSS"]
                     }>
-                        <ButtonLink href="hi">LIVE</ButtonLink>
-                        <ButtonLink href="hi">LIVE</ButtonLink>
-                        <ButtonLink href="hi">LIVE</ButtonLink>
+                        <ButtonLink to="hi">LIVE</ButtonLink>
+                        <ButtonLink to="hi">LIVE</ButtonLink>
+                        <ButtonLink to="hi">LIVE</ButtonLink>
                 </ProjectCard>
                 <ProjectCard
                     src="src\assets\hero.png"
@@ -37,9 +37,9 @@ const Projects = () => {
                     technologies={
                     ["React", "TypeScript", "TailwindCSS"]
                     }>
-                        <ButtonLink href="hi">LIVEASDASDA</ButtonLink>
-                        <ButtonLink href="hi">LIVE</ButtonLink>
-                        <ButtonLink href="hi">LIVE</ButtonLink>
+                        <ButtonLink to="hi">LIVEASDASDA</ButtonLink>
+                        <ButtonLink to="hi">LIVE</ButtonLink>
+                        <ButtonLink to="hi">LIVE</ButtonLink>
                 </ProjectCard>
             </div>
         </Section>

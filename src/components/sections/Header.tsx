@@ -1,6 +1,6 @@
 import Logo from '../Logo';
 import Navbar from '../Navbar';
-import Link from '../HeaderLink';
+import HeaderLink from '../HeaderLink';
 import MediaBar from '../MediaBar';
 
 const Header = () => {
@@ -11,9 +11,9 @@ const Header = () => {
                 <div className=' flex justify-between py-6 bg-transparent w-[1024px] mx-auto my-0'>
                     <Logo/>
                     <Navbar>
-                        <Link href="hi">home</Link>
-                        <Link href="hi">projects</Link>
-                        <Link href="hi">about-me</Link>
+                        <HeaderLink to="/home"/>
+                        <HeaderLink to="/projects"/>
+                        <HeaderLink to="/about_me"/>
                     </Navbar>
                 </div>
             </header>

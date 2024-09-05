@@ -1,7 +1,7 @@
 import Paragraph from "../Paragraph";
 import ButtonLink from "../ButtonLink";
 
-const AboutMe = () => {
+const ContactMe = () => {
     return (
             <div className="flex flex-row gap-8 justify-between items-center">
                 <div className="flex flex-wrap flex-1 content-start gap-8">
@@ -13,7 +13,7 @@ const AboutMe = () => {
                         for details  
                         </h1>
                     <Paragraph>I craft responsive websites where technologies meet creativity</Paragraph>
-                    <ButtonLink href="">Contact ME ={'>'}</ButtonLink>
+                    <ButtonLink to="/contacts">Contact ME ={'>'}</ButtonLink>
                 </div>
                 <div className="flex flex-col flex-1 relative">
                     <img className="absolute w-[30vmin] top-[10%] z-[1] aspect-square" src="src\assets\logo-outline.svg"/>
@@ -29,4 +29,4 @@ const AboutMe = () => {
     
 };
 
-export default AboutMe;
+export default ContactMe;
