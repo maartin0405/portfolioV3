@@ -8,9 +8,9 @@ const AboutMeSection = () => {
             <div className="flex-1 flex flex-col gap-8">
                 <SectionHeading>about_me</SectionHeading>
                 <Paragraph>
-                    I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences.
+                    Lorem ipsum blalbalblablablalbalbalbalblablablalbalbalblablablablalbalb
                     <br/><br/>
-                    Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.
+                    Lorem ipsum blalbalblablablalbalbalbalblablablalbalbalblablablablalbalb
                 </Paragraph>
                 <ButtonLink to="/contacts">View ALL ={'>'}</ButtonLink>
             </div>
