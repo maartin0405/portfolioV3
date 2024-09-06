@@ -7,8 +7,7 @@ const HeaderLink = ({ to }: { to: string }) => {
     return (
         <Link 
             to={to} 
-            className={`cursor-pointer text-secondary hover:text-white before:content-['#'] before:text-primary ${isActive ? 'font-semibold text-white' : ''}`}
-        >
+            className={`cursor-pointer text-secondary hover:text-white before:content-['#'] before:text-primary ${isActive ? 'font-semibold text-white' : ''}`}>
             {to}
         </Link>
     );
