@@ -6,7 +6,7 @@ const AboutMeSection = () => {
     return (
         <div className="flex items-center gap-8 ">
             <div className="flex-1 flex flex-col gap-8">
-                <SectionHeading>about</SectionHeading>
+                <SectionHeading>about_me</SectionHeading>
                 <Paragraph>
                     I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences.
                     <br/><br/>

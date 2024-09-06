@@ -4,6 +4,7 @@ import Projects from "../components/sections/Projects";
 import Skills from "../components/sections/Skills";
 import ContactMe from "../components/sections/ContactMe";
 import AboutMeSection from "../components/sections/AboutSection";
+import FormSection from "../components/sections/FormSection";
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
                 <Projects/>
                 <Skills/>
                 <AboutMeSection/>
+                <FormSection/>
             </Content>
         </>
     );
