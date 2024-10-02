@@ -1,13 +1,12 @@
 import React from "react";
 import Card from "./Card";
-import CardList from "./CardList";
 import CardDetails from "./CardDetails";
 
 interface ProjectCardProps {
     cardTitle: string;
     cardDescription: string;
     src: string;
-    technologies: string[];
+    technologies: string;
     children: React.ReactNode;
 }
 
@@ -15,7 +14,7 @@ const ProjectCard = ({ cardTitle, cardDescription, src, technologies, children}:
     return (
         <Card>
             <img src={src} className="aspect-video"/>
-            <CardList list={technologies}/>
+            <ul className="flex flex-wrap gap-[8px_16px] p-2 text-secondary">{technologies}</ul>
             <CardDetails cardTitle={cardTitle} cardDescription={cardDescription}>{children}</CardDetails>
         </Card>
     );

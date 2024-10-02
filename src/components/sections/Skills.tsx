@@ -13,12 +13,12 @@ const Skills = () => {
                     <img className="w-[16vmin] top-[70%] left-[10%] absolute" src="src\assets\circles.svg"/>
                 </div>
                 <div className="grid grid-cols-3 gap-4">
-                    <SkillsCard cardTitle="Education" skills={["React", "TypeScript", "TailwindCSS"]}/>
-                    <SkillsCard cardTitle="Some Random Shit" skills={["React", "TypeScript", "TailwindCSS"]}/>
-                    <SkillsCard cardTitle="XDDDDDDDDDDDDDDDD" skills={["React", "TypeScript", "TailwindCSS", "React", "TypeScript", "TailwindCSS"]}/>
-                    <SkillsCard cardTitle="Lol" skills={["React", "TypeScript", "TailwindCSS", "React", "TypeScript", "TailwindCSS"]}/>
-                    <SkillsCard cardTitle="Lol" skills={["React", "TypeScript", "TailwindCSS", "React", "TypeScript", "TailwindCSS"]}/>
-                    <SkillsCard cardTitle="Lol" skills={["React", "TypeScript", "TailwindCSS", "React", "TypeScript", "TailwindCSS"]}/>
+                    <SkillsCard cardTitle="Education" skills="React TypeScript TailwindCSS"/>
+                    <SkillsCard cardTitle="Some Random Shit" skills="React TypeScript TailwindCSS"/>
+                    <SkillsCard cardTitle="XDDDDDDDDDDDDDDDD" skills="React TypeScript TailwindCSS React TypeScript TailwindCSS"/>
+                    <SkillsCard cardTitle="Lol" skills="React TypeScript TailwindCSS React TypeScript TailwindCSS"/>
+                    <SkillsCard cardTitle="Lol" skills="React TypeScript TailwindCSS React TypeScript TailwindCSS"/>
+                    <SkillsCard cardTitle="Lol" skills="React TypeScript TailwindCSS React TypeScript TailwindCSS"/>
                 </div>
             </div>
         </Section>

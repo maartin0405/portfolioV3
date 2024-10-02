@@ -25,8 +25,8 @@ export const FormSection = () => {
     }
 
   return (
-        <form className="flex flex-col gap-4" ref={form} onSubmit={sendEmail}>
-            <div className="flex w-[100%] gap-4">
+        <form className="flex flex-col gap-4 w-[712px]" ref={form} onSubmit={sendEmail}>
+            <div className="flex gap-4">
                 <FormInput type="text" name="from_name" placeholder="Name" />
                 <FormInput type="text" name="subject" placeholder="Subject" />
             </div>

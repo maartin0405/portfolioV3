@@ -3,6 +3,7 @@ import Navbar from '../Navbar';
 import HeaderLink from '../HeaderLink';
 import MediaBar from '../MediaBar';
 
+
 const Header = () => {
     return (
         <>
@@ -12,7 +13,6 @@ const Header = () => {
                     <Logo/>
                     <Navbar>
                         <HeaderLink to="/home"/>
-                        <HeaderLink to="/projects"/>
                         <HeaderLink to="/about_me"/>
                     </Navbar>
                 </div>

@@ -5,8 +5,8 @@ import SectionHeading from '../SectionHeading';
 const FormSection = () => {
     return (
         <Section>
-            <div>
-            <SectionHeading>Contact Me</SectionHeading>
+            <div className="flex flex-col gap-8">
+            <SectionHeading>contact_me</SectionHeading>
             <ContactForm/>
             </div>
         </Section>

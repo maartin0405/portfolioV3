@@ -2,7 +2,7 @@ import Paragraph from "../Paragraph";
 import SectionHeading from "../SectionHeading";
 import ButtonLink from "../ButtonLink";
 
-const AboutMeSection = () => {
+const AboutMeHome = () => {
     return (
         <div className="flex items-center gap-8 ">
             <div className="flex-1 flex flex-col gap-8">
@@ -21,4 +21,4 @@ const AboutMeSection = () => {
     );  
 };
 
-export default AboutMeSection;
+export default AboutMeHome;
