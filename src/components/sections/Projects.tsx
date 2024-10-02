@@ -9,32 +9,18 @@ const Projects = () => {
             <SectionHeading>projects</SectionHeading>
             <div className="w-full grid grid-cols-3 gap-4 mt-12">
                 <ProjectCard
-                    src="src\assets\hero.png"
-                    cardTitle="Project 1"
-                    cardDescription="Project 1"
-                    technologies="React TypeScript TailwindCSS"
+                    src="src\assets\soma.png"
+                    cardTitle="SOMA Reservation Rooms"
+                    cardDescription="A room reservation system for SOMA. The system allows users to book rooms, view room availability, and manage reservations."
+                    technologies="Vite React ReactRouter Moment Emotion FullCalendar"
                     >
-                        <ButtonLink to="hi">LIVE</ButtonLink>
-                        <ButtonLink to="hi">LIVE</ButtonLink>
-                        <ButtonLink to="hi">LIVE</ButtonLink>
                 </ProjectCard>
                 <ProjectCard
-                    src="src\assets\hero.png"
-                    cardTitle="Project 1"
-                    cardDescription="Project 1"
-                    technologies="React TypeScript TailwindCSS">
-                        <ButtonLink to="hi">LIVE</ButtonLink>
-                        <ButtonLink to="hi">LIVE</ButtonLink>
-                        <ButtonLink to="hi">LIVE</ButtonLink>
-                </ProjectCard>
-                <ProjectCard
-                    src="src\assets\hero.png"
-                    cardTitle="Project 1"
-                    cardDescription="Project 1"
-                    technologies="React TypeScript TailwindCSS">
-                        <ButtonLink to="hi">LIVEASDASDA</ButtonLink>
-                        <ButtonLink to="hi">LIVE</ButtonLink>
-                        <ButtonLink to="hi">LIVE</ButtonLink>
+                    src="src\assets\login.png"
+                    cardTitle="Firebase Auth Project"
+                    cardDescription="A small project of mine that uses Firebase Authentication to authenticate users. The project also uses Firebase Firestore to store user data."
+                    technologies="React Firebase Emotion Gatsby i18"
+                    >
                 </ProjectCard>
             </div>
         </Section>

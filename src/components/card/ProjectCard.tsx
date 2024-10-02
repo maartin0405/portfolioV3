@@ -7,7 +7,7 @@ interface ProjectCardProps {
     cardDescription: string;
     src: string;
     technologies: string;
-    children: React.ReactNode;
+    children?: React.ReactNode;
 }
 
 const ProjectCard = ({ cardTitle, cardDescription, src, technologies, children}: ProjectCardProps) => {

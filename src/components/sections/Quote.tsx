@@ -6,10 +6,10 @@ const Quote = () => {
             text-white border border-secondary relative m-0
             ">
                 <blockquote className="p-8 text-2xl font-medium">
-                    The only way to do great work is to love what you do.
+                Perfection is not attainable, but if we chase perfection we can catch excellence.
                 </blockquote>
                 <figcaption className="text-secondary absolute border border-secondary p-2 right-[-1px] text-[16px]">
-                    - Steve Jobs
+                    - Vince Lombardi
                 </figcaption>
             </figure>
     );
